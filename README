@@ -1,0 +1,59 @@
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=22859007)
+# Optimization and Pareto Efficiency Assignment
+
+This repository contains tasks focused on multivariable calculus and multi-objective optimization, unconstrained minimization. You are required to submit Python scripts and outputs should be updated in this readme file.
+
+---
+
+## Task 1: 5D Critical Point Analysis
+**Goal:** Implement a script to find and classify the critical points of the 5-dimensional function:
+$$f(\mathbf{x}) = x_1^2 + x_2^2 + x_3^2 + x_4^2 + \frac{1}{4}x_5^4 - 2x_5^2$$
+
+### Output 
+## 📝 Results Submission Table
+
+| Function value | Critical Point |  Classification |
+| :--- | :--- | :--- |
+
+
+
+
+---
+
+## Task 2: 4-Objective Laptop Pareto Front
+**Goal:** Identify the Pareto-optimal set from a dataset of 50 laptops based on four objectives:
+1. **Price** (Minimize)
+2. **Performance** (Maximize)
+3. **Battery** (Maximize)
+4. **Weight** (Minimize)
+
+### Output -Pareto-Optimal Set
+| Laptop ID | Price | Performance | Battery | Weight |
+
+
+
+---
+
+## Task 3: Benchmarking Optimization Algorithms
+
+Goal: Implement and compare the performance of Steepest Descent (Gradient Descent), Newton’s Method, and Conjugate Gradient methods. You will evaluate these algorithms using the Rosenbrock (n=10) (narrow, curved valley) and Ackley (highly non-convex with many local minima) functions.
+https://en.wikipedia.org/wiki/Test_functions_for_optimization
+### Output -Rosenbrock Function
+| Method                 | Iterations | Function Value at Minima         | Coordinates|
+|------------------------|------------|--------------------------------  |---------------------|
+| **Steepest Descent**   |        |      |        |
+| **Newton Method**      |        |      |        |
+| **Conjugate Gradient** |        |      |        |  
+
+
+### Output -Ackley Function
+| Method                 | Iterations | Function Value at Minima         | Coordinates |
+|------------------------|------------|--------------------------------  |---------------------|
+| **Steepest Descent**   |        |      |        |
+| **Newton Method**      |        |      |        |
+| **Conjugate Gradient** |        |      |        |  
+
+In Ackley function- Does Conjugate gradient method reach minima with any starting point?
+
+Which methods get stuck in local minima?
+
